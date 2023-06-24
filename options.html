@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <main>
+    <div id="gameArea" class="options">
+      <h2 class="text-center mt-3">Beállítások</h2>
+      <div class="border-1 d-block"> 
+        <h3 class="text-center mt-3">Difficulty</h3>
+        <span class="difficulty text-center fw-bold"> EASY</span>
+        <div class="difficulty-buttons">
+          <button type="button" id="new-game" class="btn btn-primary d-inline-block">EASY</button>
+          <button type="button" id="new-game" class="btn btn-primary m-3 ">Medium</button>
+          <button type="button" id="new-game" class="btn btn-primary m-3 ">Hard</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer >
+    <div class="status d-inline-block float-start">
+      <p>Helyén lévő kockák: <span id="status">000</span></p>
+    </div>
+    <div id="menu"> 
+      <button type="button" id="new-game" class="btn btn-primary m-3 float-start">New Game</button>
+      <button type="button" id="options" class="btn btn-primary m-3 float-start">Options</button>
+    </div>
+  </footer>
+  
+
+   <!-- Bootstrap JavaScript Libraries -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

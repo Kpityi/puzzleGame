@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: wheat;
+}
+
+#gameArea{
+  display: grid;
+  width: 800px;
+  height:  800px;
+  border: 2px solid black;
+  margin: 50px auto;
+  padding: 0;
+  background-color: cornsilk;
+}
+.options{
+  display: flexbox !important;  
+}
+.difficulty-text{
+  width: 100px;
+  display: inline-block;
+  margin: 10px 380px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: lightgrey;
+  padding: 5px;
+}
+.button{
+  height: 50px;
+}
+#puzzle-select{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.puzzle-icon{
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15px;
+  cursor: pointer;
+} 
+.easy{
+  grid-template-columns: auto auto auto auto;
+}
+.medium{
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.hard{
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.tile-easy{
+  margin: auto;
+  width: 200px;
+  height: 200px; 
+  border: 1px solid black;
+  font-size: 100px;
+  text-align: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(0, 0, 0, .4);
+}
+.tile-medium{
+  margin: auto;
+  width: 133px;
+  height: 133px; 
+  border: 1px solid black;
+  font-size: 70px;
+  text-align: center;
+  cursor: pointer;
+  background-image: url(./img/wood.jpg) !important;    
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(0, 0, 0, .4);
+}
+.tile-hard{
+  margin: auto;
+  width: 80px;
+  height: 80px; 
+  border: 1px solid black;
+  font-size: 45px;
+  text-align: center;
+  cursor: pointer;
+  background-image: url(./img/wood.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(0, 0, 0, .4);
+}
+.status{
+  margin: 20px;
+  border: 2px solid blue;   
+  background-color: aqua;
+}
+.status p{
+  margin: auto 10px;
+  padding: 5px;
+  font-weight: bolder;
+  font-size: large;
+}
+#status{
+  margin: auto;
+  font-size: large;
+  color: green
+}
